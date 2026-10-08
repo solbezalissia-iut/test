@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Code — Formation Développeur Web Front-End</title>
+  <meta name="description" content="Formation intensive de 12 semaines pour devenir développeur web front-end : HTML, CSS, JavaScript, React. Organisme fictif, site de démonstration.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo"><span class="logo-mark">&lt;/&gt;</span> Atelier Code</a>
+      <nav class="nav">
+        <a href="#programme">Programme</a>
+        <a href="#deroulement">Déroulement</a>
+        <a href="#formateurs">Formateurs</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-small">S'inscrire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Prochaine session · 12 janvier 2027</p>
+          <h1>Devenez développeur web <em>front-end</em> en 12 semaines.</h1>
+          <p class="lead">Une formation intensive et concrète pour apprendre à construire des sites et des applications modernes, du premier fichier HTML jusqu'au déploiement d'un projet React.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Réserver ma place</a>
+            <a href="#programme" class="btn btn-ghost">Voir le programme</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-bar"><span></span><span></span><span></span></div>
+<pre><code><span class="c-k">const</span> apprenant = {
+  semaines: <span class="c-n">12</span>,
+  projets: <span class="c-n">6</span>,
+  stack: [<span class="c-s">"HTML"</span>, <span class="c-s">"CSS"</span>,
+          <span class="c-s">"JavaScript"</span>, <span class="c-s">"React"</span>],
+  objectif: <span class="c-s">"premier emploi"</span>
+};
+
+apprenant.<span class="c-f">deployer</span>(); <span class="c-c">// 🚀</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHIFFRES -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong>420 h</strong><span>de formation</span></div>
+        <div class="stat"><strong>12</strong><span>apprenants max. par session</span></div>
+        <div class="stat"><strong>6</strong><span>projets pour votre portfolio</span></div>
+        <div class="stat"><strong>87 %</strong><span>en poste à 6 mois*</span></div>
+      </div>
+    </section>
+
+    <!-- PROGRAMME -->
+    <section id="programme" class="section">
+      <div class="container">
+        <p class="eyebrow">Programme</p>
+        <h2>Six modules, une progression pas à pas</h2>
+        <p class="section-intro">Chaque module se termine par un projet réel, revu en binôme puis par un formateur.</p>
+
+        <div class="modules">
+          <article class="module">
+            <span class="module-num">01</span>
+            <h3>Fondamentaux du web</h3>
+            <p>HTML sémantique, accessibilité, fonctionnement d'un navigateur, Git et GitHub.</p>
+            <span class="tag">2 semaines</span>
+          </article>
+          <article class="module">
+            <span class="module-num">02</span>
+            <h3>CSS moderne</h3>
+            <p>Flexbox, Grid, responsive design, variables CSS et bonnes pratiques d'organisation.</p>
+            <span class="tag">2 semaines</span>
+          </article>
+          <article class="module">
+            <span class="module-num">03</span>
+            <h3>JavaScript</h3>
+            <p>Bases du langage, DOM, événements, asynchrone et appels d'API.</p>
+            <span class="tag">3 semaines</span>
+          </article>
+          <article class="module">
+            <span class="module-num">04</span>
+            <h3>React</h3>
+            <p>Composants, état, hooks, routage et consommation de données.</p>
+            <span class="tag">3 semaines</span>
+          </article>
+          <article class="module">
+            <span class="module-num">05</span>
+            <h3>Qualité &amp; déploiement</h3>
+            <p>Tests, performances, mise en ligne sur GitHub Pages et Netlify.</p>
+            <span class="tag">1 semaine</span>
+          </article>
+          <article class="module">
+            <span class="module-num">06</span>
+            <h3>Projet final</h3>
+            <p>Une application complète réalisée en équipe et présentée devant un jury.</p>
+            <span class="tag">1 semaine</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- POUR QUI -->
+    <section class="section section-alt">
+      <div class="container two-cols">
+        <div>
+          <p class="eyebrow">Pour qui ?</p>
+          <h2>Aucun diplôme requis, juste de la motivation</h2>
+          <p>La formation s'adresse aux personnes en reconversion, aux demandeurs d'emploi et à toute personne curieuse qui souhaite faire du développement web son métier.</p>
+        </div>
+        <ul class="checklist">
+          <li>Être à l'aise avec un ordinateur</li>
+          <li>Disposer d'environ 35 h par semaine</li>
+          <li>Avoir envie d'apprendre en pratiquant</li>
+          <li>Passer un court entretien de motivation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DÉROULEMENT -->
+    <section id="deroulement" class="section">
+      <div class="container">
+        <p class="eyebrow">Déroulement</p>
+        <h2>Une semaine type</h2>
+        <div class="timeline">
+          <div class="step">
+            <h3>Lundi</h3>
+            <p>Lancement du thème de la semaine et démonstrations en direct.</p>
+          </div>
+          <div class="step">
+            <h3>Mardi – Jeudi</h3>
+            <p>Exercices guidés le matin, travail sur projet l'après-midi.</p>
+          </div>
+          <div class="step">
+            <h3>Vendredi</h3>
+            <p>Revue de code, présentation des projets et bilan individuel.</p>
+          </div>
+        </div>
+        <p class="note">Format hybride : 3 jours en présentiel, 2 jours à distance.</p>
+      </div>
+    </section>
+
+    <!-- FORMATEURS -->
+    <section id="formateurs" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">L'équipe</p>
+        <h2>Des formateurs qui codent au quotidien</h2>
+        <div class="team">
+          <article class="member">
+            <div class="avatar" style="--hue: 18">CM</div>
+            <h3>Camille Martin</h3>
+            <p class="role">Développeuse front-end · 9 ans d'expérience</p>
+            <p>Spécialiste React et accessibilité, ancienne lead dev dans une agence web.</p>
+          </article>
+          <article class="member">
+            <div class="avatar" style="--hue: 200">YB</div>
+            <h3>Yanis Benali</h3>
+            <p class="role">Développeur full-stack · 7 ans d'expérience</p>
+            <p>Passionné de JavaScript et de pédagogie, il anime les ateliers projet.</p>
+          </article>
+          <article class="member">
+            <div class="avatar" style="--hue: 140">LR</div>
+            <h3>Léa Roux</h3>
+            <p class="role">Designer UI · 6 ans d'expérience</p>
+            <p>Elle accompagne les apprenants sur l'intégration et le design d'interface.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÉMOIGNAGES -->
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow">Ils l'ont suivie</p>
+        <h2>Témoignages</h2>
+        <div class="quotes">
+          <blockquote>
+            <p>« J'étais comptable il y a un an. Aujourd'hui je développe des interfaces dans une start-up. »</p>
+            <cite>Thomas, promo 2025</cite>
+          </blockquote>
+          <blockquote>
+            <p>« Le rythme est soutenu, mais on n'est jamais seul. Les revues de code m'ont énormément fait progresser. »</p>
+            <cite>Inès, promo 2026</cite>
+          </blockquote>
+        </div>
+        <p class="note">Témoignages fictifs — site de démonstration.</p>
+      </div>
+    </section>
+
+    <!-- TARIFS -->
+    <section id="tarifs" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Tarifs</p>
+        <h2>Choisissez votre formule</h2>
+        <div class="pricing">
+          <article class="plan">
+            <h3>Particulier</h3>
+            <p class="price">4 900 €</p>
+            <ul>
+              <li>Formation complète de 12 semaines</li>
+              <li>Paiement en 3 fois sans frais</li>
+              <li>Accès aux ressources pendant 1 an</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost">Choisir</a>
+          </article>
+          <article class="plan plan-featured">
+            <span class="badge">Le plus choisi</span>
+            <h3>Financement</h3>
+            <p class="price">0 € <small>reste à charge possible</small></p>
+            <ul>
+              <li>Éligible CPF et aides régionales</li>
+              <li>Accompagnement au montage du dossier</li>
+              <li>Coaching emploi inclus</li>
+            </ul>
+            <a href="#contact" class="btn">Étudier mon dossier</a>
+          </article>
+          <article class="plan">
+            <h3>Entreprise</h3>
+            <p class="price">Sur devis</p>
+            <ul>
+              <li>Formation de vos équipes</li>
+              <li>Programme adapté à vos besoins</li>
+              <li>Sessions intra-entreprise</li>
+            </ul>
+            <a href="#contact" class="btn btn-ghost">Nous contacter</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container narrow">
+        <p class="eyebrow">FAQ</p>
+        <h2>Questions fréquentes</h2>
+        <details>
+          <summary>Faut-il savoir coder avant de commencer ?</summary>
+          <p>Non. Un petit parcours de préparation gratuit (environ 10 h) vous est envoyé après votre inscription pour démarrer sereinement.</p>
+        </details>
+        <details>
+          <summary>Quel matériel est nécessaire ?</summary>
+          <p>Un ordinateur récent (Windows, macOS ou Linux) avec au moins 8 Go de RAM et une connexion internet stable.</p>
+        </details>
+        <details>
+          <summary>Obtient-on une certification ?</summary>
+          <p>Oui, un certificat de réussite est délivré à l'issue du projet final validé par le jury.</p>
+        </details>
+        <details>
+          <summary>Peut-on suivre la formation à temps partiel ?</summary>
+          <p>Une version en soirée sur 24 semaines est prévue pour la rentrée 2027.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="cta">
+      <div class="container cta-inner">
+        <h2>Prêt à écrire votre première ligne de code ?</h2>
+        <p>Places limitées à 12 apprenants. Réponse sous 48 h.</p>
+        <a href="mailto:contact@atelier-code.example" class="btn btn-light">contact@atelier-code.example</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Atelier Code</strong> — organisme de formation fictif.</p>
+      <p>* Chiffres fictifs, à titre de démonstration. © 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
